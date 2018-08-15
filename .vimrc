@@ -95,6 +95,9 @@ set clipboard=unnamed
 " YARA Syntax highlighting
 au BufNewFile,BufRead *.yar,*.yara :setlocal filetype=yara
 
+" Not sure why I need this all the sudden
+set backspace=indent,eol,start
+
 """" Older settings below
 syntax on
 set nu
